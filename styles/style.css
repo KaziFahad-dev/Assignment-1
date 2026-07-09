@@ -62,3 +62,49 @@
 
 }
 /* hero section end  */
+
+/* speaker section start  */
+
+.speakers-heading h1{
+    text-align: center;
+    font-size: 56px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.guest-speaker-section{
+    margin: 8%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+
+}
+
+.guest-speaker-section .speakers-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+.guest-speaker-section .speakers-title{
+    padding: 20px;
+
+}
+.guest-speaker-section .speakers-title h5{
+    color: blue;
+    margin: 3px 0;
+}
+
+.guest-speaker-section .speakers-title h3{
+    font-size: 20px;
+    margin:5px 0;
+}
+
+.guest-speaker-section .speakers-title p{
+    font-size: 14px;
+    margin: 3px 0 ;
+}
+
+.guest-speaker-section img{
+    width: 100%;
+    display: block;
+}
+
+/* speaker section end */
