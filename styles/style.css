@@ -82,6 +82,11 @@
 .guest-speaker-section .speakers-card{
     border: 1px solid #E5E7EB;
     border-radius: 10px;
+    
+}
+
+.guest-speaker-section .speakers-card img{
+    border-radius: 10px 10px 0 0;
 }
 .guest-speaker-section .speakers-title{
     padding: 20px;
@@ -108,3 +113,39 @@
 }
 
 /* speaker section end */
+
+/* pricelist section start  */
+
+.pricelist-section{
+    margin: 8%;
+}
+
+.offer-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.offer-section h1{
+    font-size: 48px;
+    margin: 12px;
+}
+
+.offer-section p{
+    font-size: 16px;
+    color: #575757;
+}
+
+.price-card{
+    margin: 9%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.price-card div{
+    border: 1px solid #575757;
+    padding: 20px;
+}
+
+/* pricelist section end  */
