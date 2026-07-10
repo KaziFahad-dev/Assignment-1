@@ -400,4 +400,37 @@
     box-shadow:0 25px 45px rgba(37,99,235,.35);
 }
 
+/* footer  */
+footer{
+    background-color: #0D1B2A;
+}
+.footer-icon{
+    margin: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
 
+.copy-right{
+    margin: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.copy-right p{
+    color: rgb(177, 174, 174);
+}
+
+.privacy-div{
+    display: flex;
+    gap: 20px;
+}
+.privacy-div p{
+    color: rgb(129, 127, 127);
+}
+
+footer hr{
+    color: #575656;
+}
