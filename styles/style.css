@@ -403,6 +403,7 @@
 /* footer  */
 footer{
     background-color: #0D1B2A;
+    padding: 30px;
 }
 .footer-icon{
     margin: 0 8%;
@@ -432,5 +433,8 @@ footer{
 }
 
 footer hr{
-    color: #575656;
+    height: 2px;
+    border: none;
+    background-color: #636262;
+    border-radius: 20px;
 }
